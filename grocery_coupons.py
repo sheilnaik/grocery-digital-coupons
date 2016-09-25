@@ -47,9 +47,12 @@ def shoprite():
     list_of_coupon_buttons = browser.find_elements_by_class_name('load2crd')
 
     for count, coupon_button in enumerate(list_of_coupon_buttons, start=1):
-        coupon_button.click()
-        print 'Added', count, 'coupons!'
-        time.sleep(1)
+        try:
+            coupon_button.click()
+            print 'Added', count, 'coupons!'
+            time.sleep(1)
+        except:
+            continue
 
     print 'Complete!'
     browser.close()
@@ -90,9 +93,12 @@ def stop_and_shop():
     list_of_coupon_buttons = browser.find_elements_by_class_name('load-to-card')
 
     for count, coupon_button in enumerate(list_of_coupon_buttons, start=1):
-        coupon_button.click()
-        print 'Added', count, 'coupons!'
-        time.sleep(1)
+        try:
+            coupon_button.click()
+            print 'Added', count, 'coupons!'
+            time.sleep(1)
+        except:
+            continue
 
     print 'Complete!'
     browser.close()

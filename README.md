@@ -1,5 +1,19 @@
 # Grocery Digital Coupon Automation
 
+
+## Usage
+The script only supports [Shoprite](http://www.shoprite.com) and [Stop and Shop](http://www.stopandshop.com/) for now:
+
+1. `python grocery_coupons.py shoprite`
+2. `python grocery_coupons.py shop_and_shop`
+
+
+## Dependencies
+[Selenium](http://selenium-python.readthedocs.io/index.html)
+
+
+## More Info
+
 ### What are grocery digital coupons?
 My local grocery stores - [Shoprite](http://www.shoprite.com) and [Stop and Shop](http://www.stopandshop.com/) - have a "digital coupons" feature, by which you can log onto their website and add "digital" coupons to your store loyalty card. If you buy a product and the corresponding digital coupon is added to your loyalty card, you'll save some money upon checkout.
 

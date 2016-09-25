@@ -24,7 +24,7 @@ The problem is that the digital coupons have to be added manually. If you buy so
 Yep.
 
 ### What's the solution?
-Just add *all* digital coupons to your card each week. Then, you'll automatically get the discount when you buy a product without having to do any legwork.
+The script adds *all* digital coupons to your card each week. Then, you'll automatically get the discount when you buy a product without having to do any legwork.
 
 ### So how does the script work?
 The script uses [Selenium](http://selenium-python.readthedocs.io/index.html) to launch the grocery store's website, login with your loyalty card information, and automatically add each available coupon to your card.

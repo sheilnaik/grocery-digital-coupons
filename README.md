@@ -43,5 +43,5 @@ Launch it with an argument for the store you want to access. Right now the two o
 
 The script only supports ShopRite and Stop and Shop for now, so the addition of other grocery stories would be great. It appears that [Giant's website](https://giantfoodstores.com/) looks similar to Stop and Shop since they're [owned by the same company](https://en.wikipedia.org/wiki/Stop_%26_Shop/Giant-Landover), so I assume this would be easy to integrate.
 
-### Contact
+## Contact
 You can contact the author, Sheil Naik, [on Twitter](http://www.twitter.com/sheilnaik).

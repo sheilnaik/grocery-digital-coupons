@@ -1,6 +1,6 @@
 import sys
 import time
-from ConfigParser import RawConfigParser
+from configparser import RawConfigParser
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -49,12 +49,12 @@ def shoprite():
     for count, coupon_button in enumerate(list_of_coupon_buttons, start=1):
         try:
             coupon_button.click()
-            print 'Added', count, 'coupons!'
+            print('Added', count, 'coupons!')
             time.sleep(1)
         except:
             continue
 
-    print 'Complete!'
+    print('Complete!')
     browser.close()
 
 
@@ -95,18 +95,18 @@ def stop_and_shop():
     for count, coupon_button in enumerate(list_of_coupon_buttons, start=1):
         try:
             coupon_button.click()
-            print 'Added', count, 'coupons!'
+            print('Added', count, 'coupons!')
             time.sleep(1)
         except:
             continue
 
-    print 'Complete!'
+    print('Complete!')
     browser.close()
 
 
 if __name__ == "__main__":
     delay = 10
-    browser = webdriver.Firefox()
+    browser = webdriver.Chrome()
     parser = RawConfigParser()
     parser.read('config.ini')
 
